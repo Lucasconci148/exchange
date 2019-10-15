@@ -1,0 +1,22 @@
+.container {
+    margin: 20px;
+}
+
+.title_element {
+    height: 17px; 
+    width: 120px;
+    background-color: #777; 
+    margin: 0 0 20px 0;
+}
+
+.container-elements {
+    display: flex; 
+    flex-direction: row;
+}
+
+.elements {
+    background-color: #aaa; 
+    height: 43px; 
+    width: 43px; 
+    margin-right:20px;
+}

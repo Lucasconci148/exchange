@@ -1,0 +1,22 @@
+.btn {
+    background-color:gray; 
+    border: solid 1px black;
+    display: flex; 
+    height: 30px;
+    width: 200px;
+    margin: 30px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.btn-text {
+    color: #fff; 
+    margin-top: 6px; 
+    font-family: Roboto
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

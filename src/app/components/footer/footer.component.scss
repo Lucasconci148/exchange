@@ -1,0 +1,15 @@
+.footer {
+    position: absolute;
+    background-color:#ccc; 
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row
+}
+
+.footer__items {
+    display: flex; 
+    flex-direction: column; 
+    margin: 20px;
+} 

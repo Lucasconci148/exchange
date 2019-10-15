@@ -1,0 +1,25 @@
+<app-icon></app-icon>
+<app-menu></app-menu>
+
+<div class="card">
+    <div class="container-inputs">
+
+        <input type="text" 
+        class="input"
+        [ngModel]="eu | currency:'EUR'" (ngModelChange)="eu=$event"
+        placeholder="EU">
+
+        <input type="text"
+        disabled
+        class="input"
+        [ngModel]="usd | currency:'US'" (ngModelChange)="usd=$event"
+        placeholder="USD">
+    </div>
+
+    <app-btn
+        (click)="exchange()"
+        [btnText]="'CALCULATE'">
+    </app-btn>
+</div>
+
+<app-footer></app-footer>

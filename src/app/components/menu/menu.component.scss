@@ -1,0 +1,13 @@
+.menu {
+    display: flex; 
+    justify-content: center; 
+    text-align: center;
+}
+
+.item-menu {
+    height: 20px; 
+    width: 100px; 
+    background-color:#ccc; 
+    margin: 20px; 
+    border-radius: 4px;
+}
